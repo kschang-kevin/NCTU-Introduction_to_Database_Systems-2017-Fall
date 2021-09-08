@@ -1,0 +1,228 @@
+.main-wrapper{
+    margin:0 auto;
+    width:1000px;
+    
+}
+
+.main-container h2{
+    font-family: arial;
+    font-size: 40px;
+    color:#AAAAAA;
+    line-height: 50px;
+    text-align:center;
+}
+body{
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-login h2{
+    font-family: arial;
+    font-size: 40px;
+    color:#AAAAAA;
+    line-height: 50px;
+    text-align:center;
+}
+.nav-login form{
+    width:400px;
+    margin:0 auto;
+}
+.nav-login a{
+    font-family: arial;
+    padding-left: 28%;
+    margin:0 auto;
+    font-size: 20px;
+    color:#FFFFFF;
+    line-height: 50px;
+    cursor:pointer;
+    
+}
+.nav-login input{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+    opacity: 0.5;
+
+
+}
+.nav-login form button{
+    display:block;
+    margin:0 auto;
+    width:50%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+}
+.nav-login form button:hover{
+    background-color: white;
+
+}
+.signup-form {
+    width:400px;
+    margin:0 auto;
+    
+}
+.signup-form input{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+    opacity: 0.5;
+
+}
+.signup-form button{
+    display:block;
+    margin: 0 auto; 
+    width:30%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+.signup-form button:hover{
+    background-color:white;
+
+}
+.login form{
+    width:500px;
+    margin:0 auto;
+}
+.login h2{
+    font-family: arial;
+    font-size: 40px;
+    color:#AAAAAA;
+    line-height: 50px;
+    text-align:center;
+}
+.login button{
+    display:block;
+    margin: 0 auto; 
+    width:30%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+}
+.login button:hover{
+    background-color:white;
+}
+.login p{
+    font-family: arial;
+    font-size: 30px;
+    color:white;
+    line-height: 35px;
+    text-align:center;
+}
+.newuser-signup-form {
+    width:400px;
+    margin:0 auto;
+    
+}
+.newuser-signup-form input{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+    opacity: 0.5;
+
+}
+.newuser-signup-form button{
+    display:block;
+    margin: 0 auto; 
+    width:30%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+.newuser-signup-form button:hover{
+    background-color:white;
+}
+.newuser-signup-form input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+.newuser-signup-form input[type=radio] {
+    padding-left: 100px;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    background-color: gray;  
+    position:center;      
+} 
+.newuser-signup-form input[type=radio] ~label{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+}
+.table{
+    width:70%;
+    height:30%;
+    border:none;
+    margin:0 auto;
+} 
+.kk a{
+    font-family: arial;
+    padding-left: 47%;
+    margin:0 auto;
+    font-size: 20px;
+    color:#FFFFFF;
+    line-height: 50px;
+    cursor:pointer;
+    
+}    
+.table td{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border-right: none;
+    border-left: none;
+    border-top:none;
+    border-color: white;
+    font-family:arial;
+    font-size:16px;
+    color:white;
+    line-height:40px;
+}

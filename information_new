@@ -1,0 +1,34 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<section class="main-container">
+		<div class="main-wrapper">
+			<h2>New Information</h2>
+			<? $id = $_GET['id'];?>
+			<form class="newhouse-form" action="information_new.inc.php>?id=<? echo $id; ?>" method="POST">
+				<input type="checkbox" name="information[]" value="wifi"><label>wifi</label>
+				<input type="checkbox" name="information[]" value="lockers"><label>lockers</label>
+				<input type="checkbox" name="information[]" value="laundry facilities"><label>laundry facilities</label>
+				<input type="checkbox" name="information[]" value="kitchen"><label>kitchen</label>
+				<input type="checkbox" name="information[]" value="elevator"><label>elevator</label>
+				<input type="checkbox" name="information[]" value="no smoking"><label>no smoking</label>
+				<input type="checkbox" name="information[]" value="television"><label>television</label>
+				<input type="checkbox" name="information[]" value="breakfast"><label>breakfast</label><br>
+				<input type="checkbox" name="information[]" value="toiletries providing"><label>toiletries providing</label>
+				<input type="checkbox" name="information[]" value="shuttle service"><label>shuttle service</label>
+			</form>
+			<section class="cancel">
+			<button class="cancel" onclick="location.href='information.php'">Cancel</button>
+		</section>
+		</div>
+	</section>
+<?php
+	include_once'footer.php';
+
+?>

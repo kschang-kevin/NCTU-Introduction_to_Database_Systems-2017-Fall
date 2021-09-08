@@ -6,15 +6,17 @@ session_start();
 if(isset($_POST['submit'])){
 	include 'db.php';
 
-	$account=mysqli_real_escape_string($conn,$_POST['account']);
-	$password=mysqli_real_escape_string($conn,$_POST['password']);
+	$account=$_POST['account'];
+	$password=$_POST['password'];
 
 	if(empty($account)||empty($password)){
 
 		?><script language="JavaScript">alert("Can Not Be Empty");history.go(-1);</script>"<?
 	}else{
-		$sql="SELECT * FROM users WHERE user_account='$account'";
-		$result=mysqli_query($conn,$sql);
+		$sql=$conn->prepare('SELECT * FROM users where user_account=?');
+		$sql->bind_param('s',$account);
+		$sql->execute();
+		$result=$sql->get_result();
 		$resultCheck= mysqli_num_rows($result);
 		if($resultCheck<1){
 			?><script language="JavaScript">alert("No This Account");history.go(-1);</script>"<?

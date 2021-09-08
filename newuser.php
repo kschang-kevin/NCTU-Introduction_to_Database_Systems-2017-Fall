@@ -9,7 +9,7 @@
 </head>
 	<section class="main-container">
 		<div class="main-wrapper">
-			<h2>Sign Up</h2>
+			<h2>New User</h2>
 			<form class="newuser-signup-form" action="newuser.inc.php" method="POST">
 				<input type="text" name="account" placeholder="Account"><br>
 				<input type="password" name="password" placeholder="Password"><br>
@@ -20,6 +20,9 @@
             	<input type="radio" name="identity" value="normal"><label>normal</label><br><br>
 				<button type="submit" name="submit">Sign Up</button>
 			</form>
+			<section class="cancel">
+			<button class="cancel" onclick="location.href='user_management.php'">Cancel</button>
+		</section>
 		</div>
 	</section>
 <?php

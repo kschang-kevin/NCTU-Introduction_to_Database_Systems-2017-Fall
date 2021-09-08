@@ -197,7 +197,7 @@ body{
     line-height:40px;
 }
 .table{
-    width:70%;
+    width:90%;
     height:30%;
     border:none;
     margin:0 auto;
@@ -212,11 +212,12 @@ body{
     cursor:pointer;
     
 }    
-.table td{
-    width:90%;
+.table tr td{
     height:40px;
-    padding:0px 5%;
+    padding:2%;
     margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
     border-right: none;
     border-left: none;
     border-top:none;
@@ -224,5 +225,388 @@ body{
     font-family:arial;
     font-size:16px;
     color:white;
+    line-height:20px;
+
+}
+.top_button button
+{
+    display:block;
+    margin: 0 auto; 
+    width:auto;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    float:right;
+}
+.top_button  button:hover{
+    background-color:white;
+}
+.table  input
+{
+    width:100px;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
     line-height:40px;
+    opacity: 0.5;
+}
+.table button[name='submit']
+{
+    display:block;
+    margin: 0 auto; 
+    width:auto;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    float:right;
+}
+.table button[name='submit']:hover{
+    background-color:white;
+}
+.table input[type=checkbox]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+.table input[type=checkbox] {
+    padding-left: 100px;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    background-color: gray;  
+    position:center;      
+} 
+.table input[type=checkbox] ~label{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+}
+.table select
+{
+    width:100px;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:12px;
+    color:#111;
+    line-height:40px;
+    opacity: 0.5;
+}
+.edit_top_button button
+{
+    display:block;
+    margin: 0 auto; 
+    width:auto;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    float:left;
+}
+.edit_top_button  button:hover{
+    background-color:white;
+}
+.newhouse-form input[type=checkbox]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+.newhouse-form input[type=checkbox] {
+    padding-left: 100px;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    background-color: gray;  
+    position:center;      
+} 
+.newhouse-form input[type=checkbox] ~label{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+}
+.newhouse-form button{
+    display:block;
+    margin: 0 auto; 
+    width:30%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+.newhouse-form button:hover{
+    background-color:white;
+
+}
+.newhouse-form {
+    width:400px;
+    margin:0 auto;
+    
+}
+.newhouse-form input{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+    opacity: 0.5;
+
+}
+.newhouse-form input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+.newhouse-form input[type=radio] {
+    padding-left: 100px;
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 4px;
+    background-color: gray;  
+    position:center;      
+} 
+.newhouse-form input[type=radio] ~label{
+    width:90%;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color: #fff;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:40px;
+}
+.cancel button{
+    display:block;
+    margin: 0 auto; 
+    width:12%;
+    height:40px;
+    border:none;
+    background-color:#DDDDDD; 
+    font-family: arial;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+.cancel button:hover{
+    background-color:white;
+
+}
+.table button[name='submit_price_up'] 
+{  
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    border: 1px solid #ce182f;
+    border-radius: 8px;
+    background: #ff2d58;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff2d58), to(#ce182f));
+    background: -moz-linear-gradient(top, #ff2d58, #ce182f);
+    background: linear-gradient(to bottom, #ff2d58, #ce182f);
+    text-shadow: #790e1c 1px 1px 1px;
+    font: normal normal bold px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_price_up']:hover,.table button[name='submit_price_up']:focus{
+    border: 1px solid ##f21c37;
+    background: #ff366a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff366a), to(#f71d38));
+    background: -moz-linear-gradient(top, #ff366a, #f71d38);
+    background: linear-gradient(to bottom, #ff366a, #f71d38);
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_price_up']:active {
+    background: #ce182f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ce182f), to(#ce182f));
+    background: -moz-linear-gradient(top, #ce182f, #ce182f);
+    background: linear-gradient(to bottom, #ce182f, #ce182f);
+}
+.table button[name='submit_price_up']:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 3px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAApElEQVRIie2TTQqDMBQGp13lDNJepPQ4JXfKgYoHCZ4hK2k370EW0Zj4XAgOzMafL+AgXJyNQTwEB3xFZz1+BwLwE4NcM8Nn46q3Gn8BqXBAknu7eABTYVyd5JkuNOrSuNodPY9aM7SOl6LW3Bz9TTlqzSTvrjIAsWNcjaz86Q4Yd4yrIwvRW6I2R/fAbHjATBa9N+qm6DfgAzxL38yAeNDuRQN/xZmo/jzz1woAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.table button[name='submit_price_down'] {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    border: 1px solid #ce182f;
+    border-radius: 8px;
+    background: #ff2d58;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff2d58), to(#ce182f));
+    background: -moz-linear-gradient(top, #ff2d58, #ce182f);
+    background: linear-gradient(to bottom, #ff2d58, #ce182f);
+    text-shadow: #790e1c 1px 1px 1px;
+    font: normal normal bold px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_price_down']:hover,
+.table button[name='submit_price_down']:focus {
+    border: 1px solid ##f21c37;
+    background: #ff366a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff366a), to(#f71d38));
+    background: -moz-linear-gradient(top, #ff366a, #f71d38);
+    background: linear-gradient(to bottom, #ff366a, #f71d38);
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_price_down']:active {
+    background: #ce182f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ce182f), to(#ce182f));
+    background: -moz-linear-gradient(top, #ce182f, #ce182f);
+    background: linear-gradient(to bottom, #ce182f, #ce182f);
+}
+.table button[name='submit_price_down']:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 3px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAArUlEQVRIie2TQQqDMBAAp/XiG6R+pPQ5xT/lPeJLxDfkJPbQLTRpmtW40B4cENYYZg+DcPBrTsAdaIFZzqpoRt7j+dv993kEuAEeWIwfL24AOtlsJZ/FGeAMF7hYDlADg4F8EFeShmeYUvkojiyl0YOoGl3Bgo+oGluiJ6Nq1EC/Qt6TiapxAaaMfJI7u7iSju7lmwmp6Juj5jgTRndyZsor+q6oGg0r/tSD/+IByz+v8mUW7fIAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+.table button[name='submit_time_up'] 
+{  
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    border: 1px solid #ce182f;
+    border-radius: 8px;
+    background: #ff2d58;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff2d58), to(#ce182f));
+    background: -moz-linear-gradient(top, #ff2d58, #ce182f);
+    background: linear-gradient(to bottom, #ff2d58, #ce182f);
+    text-shadow: #790e1c 1px 1px 1px;
+    font: normal normal bold px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_time_up']:hover,.table button[name='submit_price_up']:focus{
+    border: 1px solid ##f21c37;
+    background: #ff366a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff366a), to(#f71d38));
+    background: -moz-linear-gradient(top, #ff366a, #f71d38);
+    background: linear-gradient(to bottom, #ff366a, #f71d38);
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_time_up']:active {
+    background: #ce182f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ce182f), to(#ce182f));
+    background: -moz-linear-gradient(top, #ce182f, #ce182f);
+    background: linear-gradient(to bottom, #ce182f, #ce182f);
+}
+.table button[name='submit_time_up']:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 3px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAApElEQVRIie2TTQqDMBQGp13lDNJepPQ4JXfKgYoHCZ4hK2k370EW0Zj4XAgOzMafL+AgXJyNQTwEB3xFZz1+BwLwE4NcM8Nn46q3Gn8BqXBAknu7eABTYVyd5JkuNOrSuNodPY9aM7SOl6LW3Bz9TTlqzSTvrjIAsWNcjaz86Q4Yd4yrIwvRW6I2R/fAbHjATBa9N+qm6DfgAzxL38yAeNDuRQN/xZmo/jzz1woAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+.table button[name='submit_time_down'] {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    border: 1px solid #ce182f;
+    border-radius: 8px;
+    background: #ff2d58;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff2d58), to(#ce182f));
+    background: -moz-linear-gradient(top, #ff2d58, #ce182f);
+    background: linear-gradient(to bottom, #ff2d58, #ce182f);
+    text-shadow: #790e1c 1px 1px 1px;
+    font: normal normal bold px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_time_down']:hover,
+.table button[name='submit_time_down']:focus {
+    border: 1px solid ##f21c37;
+    background: #ff366a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff366a), to(#f71d38));
+    background: -moz-linear-gradient(top, #ff366a, #f71d38);
+    background: linear-gradient(to bottom, #ff366a, #f71d38);
+    color: #ffffff;
+    text-decoration: none;
+}
+.table button[name='submit_time_down']:active {
+    background: #ce182f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ce182f), to(#ce182f));
+    background: -moz-linear-gradient(top, #ce182f, #ce182f);
+    background: linear-gradient(to bottom, #ce182f, #ce182f);
+}
+.table button[name='submit_time_down']:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 3px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAArUlEQVRIie2TQQqDMBAAp/XiG6R+pPQ5xT/lPeJLxDfkJPbQLTRpmtW40B4cENYYZg+DcPBrTsAdaIFZzqpoRt7j+dv993kEuAEeWIwfL24AOtlsJZ/FGeAMF7hYDlADg4F8EFeShmeYUvkojiyl0YOoGl3Bgo+oGluiJ6Nq1EC/Qt6TiapxAaaMfJI7u7iSju7lmwmp6Juj5jgTRndyZsor+q6oGg0r/tSD/+IByz+v8mUW7fIAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
 }

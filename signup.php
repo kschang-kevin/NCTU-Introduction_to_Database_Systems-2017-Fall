@@ -18,6 +18,9 @@
 				<input type="text" name="email" placeholder="Your E-mail"><br>
 				<button type="submit" name="submit">Sign Up</button>
 			</form>
+			<section class="cancel">
+			<button class="cancel" onclick="location.href='home.php'">Cancel</button>
+		</section>
 		</div>
 	</section>
 <?php
